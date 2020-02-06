@@ -1,0 +1,81 @@
+// //=============================CUSTOMFUNCTION==========================//
+	// startGame: function()
+	// {
+	// 	this.tweens.add({
+	// 		targets: this.FG_Awal,
+	// 		ease: "Power1",
+	// 		duration: 500,
+	// 		y: 768/2-768
+	// 	})
+
+	// 	this.tweens.add({
+	// 		targets: this.BPlay,
+	// 		ease: 'Back.easeIn',
+	// 		duration: 750,
+	// 		scaleX,
+	// 		scaleY: 0
+	// 	});
+
+	// 	this.tweens.add({
+	// 		targets: this.Title,
+	// 		ease: 'Elastic',
+	// 		duration: 750,
+	// 		scaleX: 0,
+	// 		scaleY: 0
+	// 	});
+	// 	this.isGameRunning = true;
+	// },
+	// //=============================#CUSTOMFUNCTION==========================//
+
+	// //=============================EVENTLISTENER==========================//
+	// startInputEvents: function()
+	// {
+	// 	this.input.on('pointerup', this.onPointerUp, this);
+	// 	this.input.on('gameobjectdown', this.onObjectClick, this);
+	// 	this.input.on('gameobjectup', this.onObjectClickEnd, this);
+	// 	this.input.on('gameobjectover', this.onObjectClickOver, this);
+	// 	this.input.on('gameobjectout', this.onObjectOut, this);
+	// },
+
+	// onObjectClick: function(pointer,gameObject)
+	// {
+	// 	if (!this.isGameRunning && gameObject == this.BPlay)
+	// 	{
+	// 		this.BPlay.setTint(0x616161);
+	// 		this.clicking = true;
+	// 	}
+	// },
+
+	// onObjectOver: function (pointer, gameObject)
+	// {
+	// 	if(!this.clicking) return;
+	// 	if(!this.isGameRunning && gameObject == this.BPlay)
+	// 	{
+	// 		this.BPlay.setTint(0x616161);
+	// 	}
+	// },
+
+	// onObjectOut: function (pointer, gameObject)
+	// {
+	// 	if(!this.clicking) return;
+	// 	if(!this.isGameRunning && gameObject == this.BPlay)
+	// 	{
+	// 		this.BPlay.setTint(0xffffff);
+	// 	}
+	// },
+
+	// onObjectClickEnd: function (pointer, gameObject)
+	// {
+	// 	if(!this.isGameRunning && gameObject == this.BPlay)
+	// 	{
+	// 		this.BPlay.setTint(0xffffff);
+	// 		this.startGame();
+	// 	}
+	// },
+
+	// onPointerUp: function (pointer, gameObject)
+	// {
+	// 	console.log("Mouse Up");
+	// 	this.clicking = false;
+	// },
+	// //=============================#EVENTLISTENER==========================//
